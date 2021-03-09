@@ -40,7 +40,7 @@ class Person {
     }
 
     toString() {
-        return `${this[_id]} , ${this[_name]}`;
+        return `${this[_id]} - ${this[_name]}`;
     }
 }
 module.exports = Person;
