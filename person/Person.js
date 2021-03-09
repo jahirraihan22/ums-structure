@@ -40,6 +40,7 @@ class Person {
     }
 
     toString() {
+        
         return `${this[_id]} - ${this[_name]}`;
     }
 }

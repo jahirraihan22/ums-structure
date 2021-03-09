@@ -27,9 +27,8 @@ class Guardian extends Person {
     }
 
     toString() {
-        super.toString();
-        console.log('Profession : ', this[_profession]);
-        console.log('Income : ', this[_income]);
+        
+        return `${super.toString()}, Profession : ${this[_proffesion]}, ${this[_income]}`;
     }
 }
 
